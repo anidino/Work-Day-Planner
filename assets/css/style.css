@@ -2,15 +2,17 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+  
   }
   
-  textarea{
+  textarea {
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+   
   }
   
   .jumbotron {
@@ -23,23 +25,32 @@ body {
   
   .description{
     white-space: pre-wrap;
+    width: 100px;
+   
   }
   
   .time-block{
     text-align: center;
     border-radius: 15px;
+  
   }
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    /* height: 80px; */
     border-top: 1px solid white;;
+    
   }
-  
+
+  #row9, #row10, #row11, #row12, #row1, #row2, #row3, #row4, #row5 {
+      margin-left: 100px;
+  }
+
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    
   }
   
   .past {
@@ -69,3 +80,38 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  /***  MEDIA QUERY OVERIDE FOR TABLETS AND SMALLER  ***/
+/* This will be applied on any screen 768px and smaller */
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+    .jumbotron h1 {
+        margin-right: 30px;
+        text-align: center;
+    }
+    
+    .row {
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .hour {
+      padding-right: 17%;
+    } 
+  
+    .saveBtn {
+      border: 0;
+      border-radius: 0.25rem;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }} 
+  
+    /* textarea {
+      min-height: 85px;
+      border: 0;
+      margin-left: 50px; */
+      
+    /* }
+  } *

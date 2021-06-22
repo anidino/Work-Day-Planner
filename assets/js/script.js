@@ -60,3 +60,75 @@ if (currentHour < nine) {
 } else if (currentHour = nine) {
     $("#text9").addClass("present");
 }
+
+// 10 
+if (currentHour < ten) {
+    $("#text10").addClass("future");
+} else if (currentHour > ten) {
+    $("#text10").addClass("past");
+} else if (currentHour = ten) {
+    $("#text10").addClass("present");
+}
+
+// 11
+if (currentHour < eleven) {
+    $("#text11").addClass("future");
+} else if (currentHour > eleven) {
+    $("#text11").addClass("past");
+} else if (currentHour = eleven) {
+    $("#text11").addClass("present");
+}
+
+// 12
+if (currentHour < twelve) {
+    $("#text12").addClass("future");
+} else if (currentHour > twelve) {
+    $("#text12").addClass("past");
+} else if (currentHour = twelve) {
+    $("#text12").addClass("present");
+}
+
+// 1
+if (currentHour < one) {
+    $("#text1").addClass("future");
+} else if (currentHour > one) {
+    $("#text1").addClass("past");
+} else if (currentHour = one) {
+    $("#text1").addClass("present");
+}
+
+// 2
+if (currentHour < two) {
+    $("#text2").addClass("future");
+} else if (currentHour > two) {
+    $("#text2").addClass("past");
+} else if (currentHour = two) {
+    $("#text2").addClass("present");
+}
+
+// 3
+if (currentHour < three) {
+    $("#text3").addClass("future");
+} else if (currentHour > three) {
+    $("#text3").addClass("past");
+} else if (currentHour = three) {
+    $("#text3").addClass("present");
+}
+
+// 4
+if (currentHour < four) {
+    $("#text4").addClass("future");
+} else if (currentHour > four) {
+    $("#text4").addClass("past");
+} else if (currentHour = four) {
+    $("#text4").addClass("present");
+}
+
+// 5
+if (currentHour < five) {
+    $("#text5").addClass("future");
+} else if (currentHour > five) {
+    $("#text5").addClass("past");
+} else if (currentHour = five) {
+    $("#text5").addClass("present");
+}
