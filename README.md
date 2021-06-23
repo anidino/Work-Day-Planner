@@ -22,5 +22,13 @@ Acceptance Criteria:
 - WHEN I refresh the page
 - THEN the saved events persist
 
+Included in this assignment:
+- Moment.JS
+- JQuery
+- Bootstrap and other external libraries 
+- HTML, CSS, & JavaScript
+- DOM Manipulation
+- Use of Local Storage
+- Mobile Responsiveness
 
 Contributor: Ani Elaina Carr 2021
