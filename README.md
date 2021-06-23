@@ -1,3 +1,4 @@
+![work-day-planner](https://user-images.githubusercontent.com/84213096/123141552-7f07de80-d426-11eb-8574-412e3652da6d.gif)
 # Work-Day-Planner
 
 User Story:
