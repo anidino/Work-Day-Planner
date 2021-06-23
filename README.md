@@ -31,4 +31,6 @@ Included in this assignment:
 - Use of Local Storage
 - Mobile Responsiveness
 
+Link to deployed application: https://anidino.github.io/Work-Day-Planner/
+
 Contributor: Ani Elaina Carr 2021
