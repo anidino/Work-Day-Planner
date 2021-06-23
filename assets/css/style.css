@@ -1,117 +1,116 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-  
-  }
-  
-  textarea {
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-   
-  }
-  
-  .jumbotron {
-    text-align: center;
-    background-color: transparent;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  }
-  
-  .description{
-    white-space: pre-wrap;
-    width: 100px;
-   
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-  
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    /* height: 80px; */
-    border-top: 1px solid white;;
-    
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
 
-  #row9, #row10, #row11, #row12, #row1, #row2, #row3, #row4, #row5 {
-      margin-left: 100px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  background-color:#cb8933 ;
+ 
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+  width: 100px;
+ 
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+  
+}
+
+#row9, #row10, #row11, #row12, #row1, #row2, #row3, #row4, #row5 {
+    margin-left: 100px;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  
+}
+
+.past {
+  background-color: #c8b8ac;
+  color: white;
+}
+
+.present {
+  background-color: #920003;
+  color: white;
+}
+
+.future {
+  background-color: #57394a;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #145828;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+/***  MEDIA QUERY OVERIDE FOR TABLETS AND SMALLER  ***/
+/* This will be applied on any screen 768px and smaller */
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  
+   .row {
+    height: auto;
+    margin-top: 20px;
   }
 
   .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-    
-  }
-  
-  .past {
-    background-color: #d3d3d3;
-    color: white;
-  }
-  
-  .present {
-    background-color: #ff6961;
-    color: white;
-  }
-  
-  .future {
-    background-color: #77dd77;
-    color: white;
-  }
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
+    padding-right: 17%;
+  } 
 
-  /***  MEDIA QUERY OVERIDE FOR TABLETS AND SMALLER  ***/
-/* This will be applied on any screen 768px and smaller */
-@media screen and (max-width: 768px), screen and (max-width: 575px) {
-    .jumbotron h1 {
-        margin-right: 30px;
-        text-align: center;
-    }
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    .row {
-      height: auto;
-      margin-top: 20px;
-    }
+  } 
+
   
-    .hour {
-      padding-right: 17%;
-    } 
+textarea {
+  min-height: 85px;
+  margin-right: 600px;
+  justify-content: center;
   
-    .saveBtn {
-      border: 0;
-      border-radius: 0.25rem;
-      height: 90px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-    }} 
-  
-    /* textarea {
-      min-height: 85px;
-      border: 0;
-      margin-left: 50px; */
-      
-    /* }
-  } *
+
+}
+}
